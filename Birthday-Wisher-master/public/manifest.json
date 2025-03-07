@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Birthday Wisher",
+  "name": "Birthday Countdown & Wisher",
   "icons": [
     {
       "src": "favicon.ico",
