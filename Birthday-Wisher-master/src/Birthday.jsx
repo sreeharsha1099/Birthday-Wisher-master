@@ -42,8 +42,6 @@ const Birthday = ({ name, day, month }) => {
         let birthdayDay = new Date(currentYear, month - 1, day);
         if (dateAtm > birthdayDay) {
           birthdayDay = new Date(currentYear + 1, month - 1, day);
-        } else if (dateAtm.getFullYear() === birthdayDay.getFullYear() + 1) {
-          birthdayDay = new Date(currentYear, month - 1, day);
         }
 
         // Getitng Current Time
